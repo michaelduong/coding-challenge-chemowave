@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2B47FA20C34AB700695776 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2B47F920C34AB700695776 /* CommentsViewController.swift */; };
+		BA3CB72920BFE82D00F6E72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CB72820BFE82D00F6E72E /* AppDelegate.swift */; };
+		BA3CB72E20BFE82D00F6E72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3CB72C20BFE82D00F6E72E /* Main.storyboard */; };
+		BA3CB73020BFE83000F6E72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3CB72F20BFE83000F6E72E /* Assets.xcassets */; };
+		BA3CB73320BFE83000F6E72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3CB73120BFE83000F6E72E /* LaunchScreen.storyboard */; };
+		BA3CB73B20C0A82900F6E72E /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CB73A20C0A82900F6E72E /* PostListTableViewController.swift */; };
+		BA3CB73D20C0AA2500F6E72E /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CB73C20C0AA2500F6E72E /* PostController.swift */; };
+		BA3CB73F20C0AA3E00F6E72E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CB73E20C0AA3E00F6E72E /* Post.swift */; };
+		BABC194D20C1EA580015B032 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABC194C20C1EA580015B032 /* PostError.swift */; };
+		BABC194F20C1FB590015B032 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABC194E20C1FB590015B032 /* PostTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA2B47F920C34AB700695776 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		BA3CB72520BFE82D00F6E72E /* coding-challenge-chemowave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coding-challenge-chemowave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3CB72820BFE82D00F6E72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA3CB72D20BFE82D00F6E72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3CB72F20BFE83000F6E72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3CB73220BFE83000F6E72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3CB73420BFE83000F6E72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3CB73A20C0A82900F6E72E /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		BA3CB73C20C0AA2500F6E72E /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		BA3CB73E20C0AA3E00F6E72E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BABC194C20C1EA580015B032 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
+		BABC194E20C1FB590015B032 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3CB72220BFE82D00F6E72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3CB71C20BFE82D00F6E72E = {
+			isa = PBXGroup;
+			children = (
+				BA3CB72720BFE82D00F6E72E /* coding-challenge-chemowave */,
+				BA3CB72620BFE82D00F6E72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3CB72620BFE82D00F6E72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB72520BFE82D00F6E72E /* coding-challenge-chemowave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3CB72720BFE82D00F6E72E /* coding-challenge-chemowave */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3180720C51BF900480FEB /* Model */,
+				BAF3180A20C51CCB00480FEB /* View */,
+				BAF3180B20C51CD100480FEB /* Controller */,
+				BAF3180820C51C6800480FEB /* UI */,
+				BAF3180920C51C9100480FEB /* Helper File */,
+				BAF3180C20C51D1700480FEB /* Resources */,
+			);
+			path = "coding-challenge-chemowave";
+			sourceTree = "<group>";
+		};
+		BAF3180720C51BF900480FEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB73E20C0AA3E00F6E72E /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAF3180820C51C6800480FEB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB72C20BFE82D00F6E72E /* Main.storyboard */,
+				BA3CB73120BFE83000F6E72E /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BAF3180920C51C9100480FEB /* Helper File */ = {
+			isa = PBXGroup;
+			children = (
+				BABC194C20C1EA580015B032 /* PostError.swift */,
+			);
+			path = "Helper File";
+			sourceTree = "<group>";
+		};
+		BAF3180A20C51CCB00480FEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB73A20C0A82900F6E72E /* PostListTableViewController.swift */,
+				BA2B47F920C34AB700695776 /* CommentsViewController.swift */,
+				BABC194E20C1FB590015B032 /* PostTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAF3180B20C51CD100480FEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB73C20C0AA2500F6E72E /* PostController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAF3180C20C51D1700480FEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA3CB72820BFE82D00F6E72E /* AppDelegate.swift */,
+				BA3CB72F20BFE83000F6E72E /* Assets.xcassets */,
+				BA3CB73420BFE83000F6E72E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3CB72420BFE82D00F6E72E /* coding-challenge-chemowave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3CB73720BFE83000F6E72E /* Build configuration list for PBXNativeTarget "coding-challenge-chemowave" */;
+			buildPhases = (
+				BA3CB72120BFE82D00F6E72E /* Sources */,
+				BA3CB72220BFE82D00F6E72E /* Frameworks */,
+				BA3CB72320BFE82D00F6E72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "coding-challenge-chemowave";
+			productName = "coding-challenge-chemowave";
+			productReference = BA3CB72520BFE82D00F6E72E /* coding-challenge-chemowave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3CB71D20BFE82D00F6E72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Turnt Labs";
+				TargetAttributes = {
+					BA3CB72420BFE82D00F6E72E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = BA3CB72020BFE82D00F6E72E /* Build configuration list for PBXProject "coding-challenge-chemowave" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3CB71C20BFE82D00F6E72E;
+			productRefGroup = BA3CB72620BFE82D00F6E72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3CB72420BFE82D00F6E72E /* coding-challenge-chemowave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3CB72320BFE82D00F6E72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3CB73320BFE83000F6E72E /* LaunchScreen.storyboard in Resources */,
+				BA3CB73020BFE83000F6E72E /* Assets.xcassets in Resources */,
+				BA3CB72E20BFE82D00F6E72E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3CB72120BFE82D00F6E72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABC194D20C1EA580015B032 /* PostError.swift in Sources */,
+				BA3CB72920BFE82D00F6E72E /* AppDelegate.swift in Sources */,
+				BA2B47FA20C34AB700695776 /* CommentsViewController.swift in Sources */,
+				BA3CB73B20C0A82900F6E72E /* PostListTableViewController.swift in Sources */,
+				BA3CB73D20C0AA2500F6E72E /* PostController.swift in Sources */,
+				BA3CB73F20C0AA3E00F6E72E /* Post.swift in Sources */,
+				BABC194F20C1FB590015B032 /* PostTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA3CB72C20BFE82D00F6E72E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3CB72D20BFE82D00F6E72E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3CB73120BFE83000F6E72E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3CB73220BFE83000F6E72E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3CB73520BFE83000F6E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3CB73620BFE83000F6E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3CB73820BFE83000F6E72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NELGRQX33K;
+				INFOPLIST_FILE = "$(SRCROOT)/coding-challenge-chemowave/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.turntlabs.coding-challenge-chemowave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA3CB73920BFE83000F6E72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NELGRQX33K;
+				INFOPLIST_FILE = "$(SRCROOT)/coding-challenge-chemowave/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.turntlabs.coding-challenge-chemowave";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3CB72020BFE82D00F6E72E /* Build configuration list for PBXProject "coding-challenge-chemowave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3CB73520BFE83000F6E72E /* Debug */,
+				BA3CB73620BFE83000F6E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3CB73720BFE83000F6E72E /* Build configuration list for PBXNativeTarget "coding-challenge-chemowave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3CB73820BFE83000F6E72E /* Debug */,
+				BA3CB73920BFE83000F6E72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3CB71D20BFE82D00F6E72E /* Project object */;
+}
